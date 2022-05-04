@@ -47,7 +47,11 @@ class _homePageState extends State<homePage> {
               bottom: TabBar(
                 onTap: (tabIndex) {
                   setState(() {
-                    fabicon_index = tabIndex - 1;
+                    if (tabIndex > 0) {
+                      fabicon_index = tabIndex - 1;
+                    } else {
+                      fabicon_index = 1;
+                    }
                   });
                 },
                 tabs: const [
