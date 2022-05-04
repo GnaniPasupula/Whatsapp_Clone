@@ -100,7 +100,7 @@ class _homePageState extends State<homePage> {
               backgroundColor: const Color.fromARGB(255, 7, 94, 84),
             ),
             body: TabBarView(children: <Widget>[
-              TakePictureScreen(camera: availableCameras().get(0)),
+              ChatPage(),
               ChatPage(),
               statusPage(),
               callsPage(),
