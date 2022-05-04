@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:camera/camera.dart';
+//import 'package:camera/camera.dart';
 ////////////////////
 import 'SettingsPage.dart';
 import 'callsPage.dart';
 import 'chats_page.dart';
-import 'camera_page.dart';
+//import 'camera_page.dart';
 import 'statusPage.dart';
 
 List fabIcon = [
